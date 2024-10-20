@@ -1,0 +1,125 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void CharacterController_Start_m2CD8D811A982F952D51D256A4B0DCF8E67D18FE6 (void);
+extern void CharacterController_Update_m01C88A4178A807A0937A5A5B6B1CCE98CF5EBFB9 (void);
+extern void CharacterController_FixedUpdate_m87263E0CEAB7994A395B0B37FD03B5F625E79467 (void);
+extern void CharacterController_Jump_mBDC3E07D6FB83453E40EA43439752665F7862239 (void);
+extern void CharacterController_OnDrawGizmosSelected_m449569D4AC1C5DC089B5E9CE737E38CAD10FC248 (void);
+extern void CharacterController__ctor_m7803E87E16EAC42354D013EC14681149D80373A7 (void);
+extern void DoorController_Update_mC150A2B7232AE2AA3C9BDE7E18F714DF71F8FE28 (void);
+extern void DoorController_PickupKey_m4D374468E79F074CDFFA68FA0B90906AD3C045CB (void);
+extern void DoorController_OpenDoor_m4F54DFA7C153EF5783B8DF924455649566CB0B2D (void);
+extern void DoorController_GetHasKey_mCBBC56D32945C1CE00C866E4E8C232E413459944 (void);
+extern void DoorController__ctor_mD89F4B49FFD160724C7040A3E91E96951CEC5BF3 (void);
+extern void KeyPickup_Update_m2DE1C752863E6E1F1FBA8DA70555DEA8936EE8D5 (void);
+extern void KeyPickup_PickupKey_mB5FDF0E4A67A3C54ACF8EB471E75DF4E3862B065 (void);
+extern void KeyPickup_GetKeyStatus_mBC8C7539FEE035D91A82DEA594C128810AB9CA82 (void);
+extern void KeyPickup__ctor_mAF665D774FBBC9155E69C68B9DC99E4FE42861D8 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+extern void BasicMotionsRootmotionReset_Start_mF0A5640951A37EAF7F2FB0DE931EF59C5D07FCC3 (void);
+extern void BasicMotionsRootmotionReset_ResetPosition_m6F425AC7E5FE739400E773FB51BEF5E92186165E (void);
+extern void BasicMotionsRootmotionReset_ResetPositionFromSMB_mF4A3AE80DA15D4EB0F56754314C273949B2790B9 (void);
+extern void BasicMotionsRootmotionReset_ResetPositionAfterFrame_m3348282755FA2B1A495657FD78A25E533B205803 (void);
+extern void BasicMotionsRootmotionReset__ctor_mB8427B1AF1D0506E198C47B202AF3E99F5FC4E22 (void);
+extern void U3CResetPositionAfterFrameU3Ed__5__ctor_mB69F546984E5B54AC75A2F1BBF74F86CB5178B3E (void);
+extern void U3CResetPositionAfterFrameU3Ed__5_System_IDisposable_Dispose_m1BFECBBF8800B88E2538BD3CC4E5BD74B95AA97C (void);
+extern void U3CResetPositionAfterFrameU3Ed__5_MoveNext_m5A1AC8E8DB04957A2A0B7108455B823D1F3E38E5 (void);
+extern void U3CResetPositionAfterFrameU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m69E6E90CA7B0A0B0AAB6A5DA8D337DA3F8C4F5E5 (void);
+extern void U3CResetPositionAfterFrameU3Ed__5_System_Collections_IEnumerator_Reset_m80507B29840B0983299AE79F6C7B2543E413C60D (void);
+extern void U3CResetPositionAfterFrameU3Ed__5_System_Collections_IEnumerator_get_Current_mA3E251A85378EB8E7CB6F8917CF93E142C3266FA (void);
+static Il2CppMethodPointer s_methodPointers[28] = 
+{
+	CharacterController_Start_m2CD8D811A982F952D51D256A4B0DCF8E67D18FE6,
+	CharacterController_Update_m01C88A4178A807A0937A5A5B6B1CCE98CF5EBFB9,
+	CharacterController_FixedUpdate_m87263E0CEAB7994A395B0B37FD03B5F625E79467,
+	CharacterController_Jump_mBDC3E07D6FB83453E40EA43439752665F7862239,
+	CharacterController_OnDrawGizmosSelected_m449569D4AC1C5DC089B5E9CE737E38CAD10FC248,
+	CharacterController__ctor_m7803E87E16EAC42354D013EC14681149D80373A7,
+	DoorController_Update_mC150A2B7232AE2AA3C9BDE7E18F714DF71F8FE28,
+	DoorController_PickupKey_m4D374468E79F074CDFFA68FA0B90906AD3C045CB,
+	DoorController_OpenDoor_m4F54DFA7C153EF5783B8DF924455649566CB0B2D,
+	DoorController_GetHasKey_mCBBC56D32945C1CE00C866E4E8C232E413459944,
+	DoorController__ctor_mD89F4B49FFD160724C7040A3E91E96951CEC5BF3,
+	KeyPickup_Update_m2DE1C752863E6E1F1FBA8DA70555DEA8936EE8D5,
+	KeyPickup_PickupKey_mB5FDF0E4A67A3C54ACF8EB471E75DF4E3862B065,
+	KeyPickup_GetKeyStatus_mBC8C7539FEE035D91A82DEA594C128810AB9CA82,
+	KeyPickup__ctor_mAF665D774FBBC9155E69C68B9DC99E4FE42861D8,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+	BasicMotionsRootmotionReset_Start_mF0A5640951A37EAF7F2FB0DE931EF59C5D07FCC3,
+	BasicMotionsRootmotionReset_ResetPosition_m6F425AC7E5FE739400E773FB51BEF5E92186165E,
+	BasicMotionsRootmotionReset_ResetPositionFromSMB_mF4A3AE80DA15D4EB0F56754314C273949B2790B9,
+	BasicMotionsRootmotionReset_ResetPositionAfterFrame_m3348282755FA2B1A495657FD78A25E533B205803,
+	BasicMotionsRootmotionReset__ctor_mB8427B1AF1D0506E198C47B202AF3E99F5FC4E22,
+	U3CResetPositionAfterFrameU3Ed__5__ctor_mB69F546984E5B54AC75A2F1BBF74F86CB5178B3E,
+	U3CResetPositionAfterFrameU3Ed__5_System_IDisposable_Dispose_m1BFECBBF8800B88E2538BD3CC4E5BD74B95AA97C,
+	U3CResetPositionAfterFrameU3Ed__5_MoveNext_m5A1AC8E8DB04957A2A0B7108455B823D1F3E38E5,
+	U3CResetPositionAfterFrameU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m69E6E90CA7B0A0B0AAB6A5DA8D337DA3F8C4F5E5,
+	U3CResetPositionAfterFrameU3Ed__5_System_Collections_IEnumerator_Reset_m80507B29840B0983299AE79F6C7B2543E413C60D,
+	U3CResetPositionAfterFrameU3Ed__5_System_Collections_IEnumerator_get_Current_mA3E251A85378EB8E7CB6F8917CF93E142C3266FA,
+};
+static const int32_t s_InvokerIndices[28] = 
+{
+	5543,
+	5543,
+	5543,
+	5543,
+	5543,
+	5543,
+	5543,
+	4455,
+	4455,
+	5350,
+	5543,
+	5543,
+	4455,
+	5350,
+	5543,
+	8139,
+	5543,
+	5543,
+	5543,
+	5543,
+	5436,
+	5543,
+	4429,
+	5543,
+	5350,
+	5436,
+	5543,
+	5436,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	28,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
